@@ -85,4 +85,4 @@ async def solve(
     with torch.no_grad():
         pred = greedy_decode(model(tensor))[0]
 
-    return {"text": pred}\
+    return {"text": pred}
